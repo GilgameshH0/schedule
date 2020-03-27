@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linear_spec"
+    tools:context=".pickerFragments.spec">
+
+    <TextView
+        android:textColor="@color/blueGreen"
+        android:id="@+id/spec_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/spec_ch1"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/spec_text2"
+        android:textStyle="bold"
+        android:textColor="@color/blueGreen"
+        android:layout_marginBottom="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/spec_ch2"
+        android:textSize="28sp"
+        android:textAlignment="center"/>
+
+    <RelativeLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ProgressBar
+
+                style="?android:attr/progressBarStyleSmall"
+
+            android:layout_width="match_parent"
+
+            android:layout_centerVertical="true"
+            android:layout_height="80dp"
+
+            android:id="@+id/spec_progressBar"
+
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:overScrollMode="never"
+            android:id="@+id/recycler_spec"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

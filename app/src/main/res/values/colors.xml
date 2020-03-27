@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="currentWeek">#a3dfed</color>
+    <color name="colorSapphire">#001c60</color>
+    <color name="colorDarkAzure">#004885</color>
+    <color name="blueGreen">#0064B9</color>
+    <color name="pacificBlue">#02a9cf</color>
+    <color name="white">#ffff</color>
+    <color name="gray">#EFEFEF</color>
+    <color name="graySubtitle">#a3c5e4</color>
+    <color name="darkGray">#8b8b8b</color>
+</resources>

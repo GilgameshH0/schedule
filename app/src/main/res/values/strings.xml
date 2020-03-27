@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Вгувт.Расписание</string>
+
+    <string name="title_home">Расписание</string>
+
+    <string name="title_my_time_tables">Мои расписания</string>
+
+    <string name="refreshButton">Обновить</string>
+
+    <string name="textCheckInternet">Проверьте соединение с сетью</string>
+
+    <string name="menuName">О приложении</string>
+
+    <string name="textCheckServer_ch1">Извините, на сайте ведутся </string>
+
+    <string name="textCheckServer_ch2">работы, попробуйте позже</string>
+
+    <string name="description_content">Описание</string>
+
+    <string name="aboutTitleFirst">Проблема</string>
+
+    <string name="aboutSubTitleFirst">Сообщить об ошибке, зависании, медленной или некорректной работе</string>
+
+    <string name="aboutTitleSecond">Другое</string>
+
+    <string name="noLessons">Нет занятий</string>
+
+
+    <string name="homeBeforeButton">Предыдущая</string>
+
+    <string name="homeNextButton">Следующая</string>
+
+    <string name="lessonTime1">8:15 - 9:50</string>
+    <string name="lessonTime2">10:00 - 11:35</string>
+    <string name="lessonTime3">12:00 - 13:35</string>
+    <string name="lessonTime4">13:45 - 15:15</string>
+    <string name="lessonTime5">15:25 - 16:55</string>
+    <string name="lessonTime6">17:00 - 18:30</string>
+    <string name="lessonTime7">18:35 - 20:05</string>
+    <string name="lessonTime8">20:10 - 21:35</string>
+
+<string name="thereIsNotLessons">Нет занятий</string>
+
+    <string name="aboutSubTitleSecond">Задать другой вопрос</string>
+
+    <string name="aboutButtonText">Информация о приложении</string>
+
+    <string name="aboutDialogButton">ОК</string>
+
+    <string name="aboutDialogTitle">Информация об использованных ресурсах</string>
+
+    <string name="facult_ch1">Выберите</string>
+
+    <string name="facult_ch2">факультет</string>
+
+    <string name="spec_ch1">Выберите</string>
+
+    <string name="spec_ch2">специальность</string>
+
+    <string name="course_ch1">Выберите</string>
+
+    <string name="course_ch2">курс</string>
+
+    <string name="group_ch1">Выберите</string>
+
+    <string name="group_ch2">группу</string>
+
+    <string name="buttonAgreesText">Подтвердить</string>
+
+    <string name="logo_ch1">ВГУВТ</string>
+
+    <string name="logo_ch2">Расписание</string>
+
+    <string name="logo_button">Начать</string>
+
+    <string name="aboutDialogText">The application uses the icons from flaticon
+website: icon made by Freepik from
+www.flaticon.com, icon made by
+Designmodo from www.flaticon.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

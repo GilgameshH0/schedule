@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="170dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/dialogButton"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="55dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="205dp"
+        android:text="@string/aboutDialogButton"
+        android:textColor="@color/pacificBlue"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="222dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/aboutDialogTitle"
+        android:textAlignment="center"
+        android:textColor="@color/blueGreen"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/dialogText"
+        android:layout_width="298dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/aboutDialogText"
+        android:textColor="@color/blueGreen"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
